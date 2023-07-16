@@ -8,17 +8,43 @@
 
 body {
     font-family: "Urbanist", sans-serif;
-    color: #170A24;
+    color: red;
 }
 
 /*heading and logo*/
 
 h1, h2 {
     font-family: "Montserrat", sans-serif;
-    color: #170A24;
+    color: purple;
 }
 
 #logo {
     float: left;
     font-size: 280%;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+    
+#menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+#menu a {
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid green;
+}
+
+.active{
+    border-bottom: 1px solid green;
 }
