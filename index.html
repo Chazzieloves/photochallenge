@@ -1,15 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A website made to challenge photographers, and have a chance to win one months exposure of your art.">
+    <meta name="description"
+        content="A website made to challenge photographers, and have a chance to win one months exposure of your art.">
     <meta name="keywords" content="photo, photography, photographer, camera, challenge, picture, contest">
     <meta author="chazzieloves">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Photo Challenge</title>
 </head>
+
 <body>
     <section id="hero-outer">
         <div id="hero-image"></div>
@@ -17,41 +21,76 @@
             <h2>Photo Challenge</h2>
             <h3>Want to expose your art?</h3>
         </div>
-        
+
     </section>
-    <header>
+    <section>
+    <header class="logomenu">
         <a href="index.html">
             <h1 id="logo">Photo Challenge</h1>
         </a>
-
+        
         <nav>
             <ul id="menu">
                 <li>
                     <a href="index.html" class="active">Home</a>
                 </li>
                 <li>
-                    <a href="#">How does it work?</a>
+                    <a href="how-does-it-work.html">How does it work?</a>
                 </li>
                 <li>
-                    <a href="#">Challenge</a>
+                    <a href="challenge.html">Challenge</a>
                 </li>
             </ul>
         </nav>
     </header>
+    <section id="particapate">
+        <h2>Particapate in a challenge!</h2>
+    </section>
     <section id="how-it-works">
-        <h1>Last months winner!</h1>
-        <div id="left-about">left</div>
-        <div id="right-about">right</div>
-        <div id="center-about">center</div>
+        <div id="left-about">
+            <div class="left-about-heading">
+                <h2>Prepare for the challenge<i class="fa-solid fa-business-time"></i></h2>
+                <hr>
+                <p>Read through the challenge and the challenge rules.</p>
+            </div>
+        </div>
+        <div id="center-about">
+            <div class="center-about-heading">
+                <h2>Make you dreams come alive...</h2>
+                <hr>
+                <p>Go out, in, under, over, up, down, ouside the box!</p>
+            </div>
+        </div>
+        <div id="right-about">
+            <div class="right-about-heading">
+                <h2>Submit your work!</h2>
+                <hr>
+                <p>Fill out the form and particapate.</p>
+            </div>
+        </div>
     </section>
     <section>
-        Other photos from this artist
-    </section>
-    <section>
-        Participate
+        <h2>Past challenge winners</h2>
+        <div class="slider-frame">
+            <div class="slide-images">
+                <div class="image-container">
+                    <img src="image/river candles.jpg">
+                </div>
+                <div class="image-container">
+                    <img src="image/dog.jpg">
+                </div>
+                <div class="image-container">
+                    <img src="image/canola field.jpg">
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         Terms and conditions, cookie policy, privacy policy
     </footer>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/c9e011dfde.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
