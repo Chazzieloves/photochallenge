@@ -47,7 +47,6 @@ header {
     width: 100%;
     top: 0;
     position: fixed;
-    background-color: green;
 
 }
 
@@ -63,9 +62,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: pink;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-end;
 }
 
 .main_menu a:hover {
@@ -76,9 +73,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: pink;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-end;
 }
 
 #menu li {
@@ -142,6 +137,84 @@ main {
     flex-direction: center;
     justify-content: center;
 }
+
+/*slide-animation*/
+
+.slider-frame {
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-top: 20px;
+    margin-left: 360px;
+}
+
+
+@-webkit-keyframes slide_animation {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    20% {
+        left: 1200px;
+    }
+
+    30% {
+        left: 1200px;
+    }
+
+    40% {
+        left: 2400px;
+    }
+
+    50% {
+        left: 2400px;
+    }
+
+    60% {
+        left: 1200px;
+    }
+
+    70% {
+        left: 1200px;
+    }
+
+    80% {
+        left: 0px;
+    }
+
+    90% {
+        left: 0px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+.slide-images {
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container {
+    display: flex;
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    flex-direction: row;
+}
+
 
 footer {
     display: flex;
