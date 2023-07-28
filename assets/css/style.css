@@ -9,7 +9,9 @@
 body {
     font-family: "Urbanist", sans-serif;
     color: red;
-    background-color: #322424;
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +39,7 @@ header {
 
     /*animate the zoom effect on loading page*/
     animation-name: hero-zoom;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 .main_menu {
@@ -47,41 +49,48 @@ header {
     width: 100%;
     top: 0;
     position: fixed;
+    background-color: black;
 
 }
 
 .logo {
     display: flex;
-    width: 100%;
-    justify-content: start;
-    align-items: center;
-
+    color: white;
+    justify-content: flex-start;
 }
 
 .click-menu {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: flex-end;
 }
 
 .main_menu a:hover {
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid white;
 }
 
 #menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #menu li {
     display: flex;
     width: 100%;
     margin-left: 2vw;
+    margin-bottom: 1em;
     align-items: center;
     justify-content: center;
+}
+
+#menu li a {
+    color: white;
+}
+
+.active {
+    border-bottom: 1px solid white;
 }
 
 /* create level of zoom hero-image*/
