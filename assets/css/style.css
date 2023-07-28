@@ -8,7 +8,7 @@
 
 body {
     font-family: "Urbanist", sans-serif;
-    color: red;
+    color: white;
     background-image: url("../images/background.png");
     background-repeat: repeat;
     background-color: black;
@@ -112,6 +112,13 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+/*this months challenge winner*/
+
+.winner {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /*how it works*/
