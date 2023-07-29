@@ -47,7 +47,7 @@
         </section>
         <br>
         <div class="container">
-            <form action="submit-response.html" method="post">
+            <form action="http://127.0.0.1:5500/submit-response.html" id="particapate" method="get">
                 <ul class="flex-outer">
                     <li>
                         <label for="first-name">First Name</label>
@@ -75,7 +75,12 @@
                             placeholder="Describe why your photography should win this challenge" required></textarea>
                     </li>
                     <li>
-                        <button type="submit" value="Particapate">Submit</button>
+                        <label for="submit" id="submit">#</label>
+                        <input type="submit" value="particapate">
+                    </li>
+                    <li>
+                        <label for="reset" id="reset">#</label>
+                        <input type="reset" value="reset">
                     </li>
                 </ul>
             </form>
