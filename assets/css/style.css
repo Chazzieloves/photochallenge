@@ -89,10 +89,6 @@ header {
     color: white;
 }
 
-.active {
-    border-bottom: 1px solid white;
-}
-
 /* create level of zoom hero-image*/
 @keyframes hero-zoom {
     from {
