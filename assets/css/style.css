@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Urbanist&display=swap');
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +8,7 @@
 }
 
 body {
-    font-family: "Urbanist", sans-serif;
+    font-family: "Cormorant", sans-serif;
     color: white;
     background-image: url("../images/background.png");
     background-repeat: repeat;
@@ -19,20 +20,21 @@ body {
     width: 100%;
 }
 
+/*hero image, navbar and logo*/
 header {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    z-index: 99;
+    font-family: "Cinzel", sans-serif;
 }
 
-/*heading and logo*/
-/*hero image and cover text*/
 #hero-image {
     display: flex;
     height: 600px;
     width: 100%;
+    margin-top: 35px;
     background: url(../images/camera.png) no-repeat bottom;
     background-position: bottom;
     background-size: cover;
@@ -45,23 +47,24 @@ header {
 .main_menu {
     display: flex;
     justify-content: space-between;
-    align-items: center !important;
+    align-items: center;
     width: 100%;
     top: 0;
     position: fixed;
     background-color: black;
-
+    box-shadow: white 0px 0px 10px;
 }
 
 .logo {
     display: flex;
     color: white;
-    justify-content: flex-start;
+    padding-left: 30px;
 }
 
 .click-menu {
     display: flex;
-    justify-content: flex-end;
+    margin-top: 30px;
+    padding-right: 30px;
 }
 
 .main_menu a:hover {
@@ -115,6 +118,10 @@ main {
 .winner {
     display: flex;
     justify-content: flex-end;
+}
+
+.winner p {
+    font-size: 250%;
 }
 
 /*how it works*/
@@ -265,6 +272,10 @@ footer {
     bottom: 0;
 }
 
+footer h6 {
+    font-size: 150%;
+}
+
 .footer-icons {
     display: flex;
     flex-direction: row;
@@ -298,8 +309,9 @@ footer {
 }
 
 #go-back {
+    display: flex;
     list-style: none;
-    text-align: center;
+    align-items: center;
 }
 
 .return {
@@ -313,4 +325,10 @@ footer {
 
 .return a {
     color: white;
+}
+
+@media (max-width: 400px) {
+    #hero-image {
+        display: block;
+    }
 }
