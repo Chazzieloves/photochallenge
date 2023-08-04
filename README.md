@@ -1,7 +1,7 @@
 Photo Challenge
 
-A website where you can apply your photography in a challenge and win exposure on our website. The challenges vary each month and the winner gets 1 month of exposure on the home-page.
-The site can be accessed by this [link](...)
+A website where you can apply your photography in a challenge and win exposure on our website. The challenges vary each month and the winner gets 1 month of exposure on the homepage.
+The site can be accessed here [link](...)
 
 ## Features
 
@@ -9,12 +9,12 @@ The site can be accessed by this [link](...)
 
 + ##### Navigation
     - Positioned at the top of the page.
-    - Contains logo of the company on the left side.
+    - Contains the logotype of the company on the left side.
     - Contains navigation links on the right side:
-        * Home - leads to the home page where users can see the last challenge winners art.
-        * How does it work? - leads to the how does it work page where users can see past challenge winners and get information on how to particapate in a monthly challenge.
-        * Challenge - leads to the challenge form page where users can fill out the form and submit their contribution to the challenge.
-    - The links have animated hover effect.
+        * Home - leads to the "Home" page where users can see the last challenge winner art.
+        * How? - leads to the "How?" page where users can see past challenge winners and get information on how to participate in a monthly challenge.
+        * Challenge - leads to the "challenge form" page where users can fill out the form and submit their contribution to the challenge.
+    - The links have an animated hover effect.
     - The navigation is clear and easy to understand for the user.
 
     - The navigation bar is responsive:
@@ -29,9 +29,9 @@ The site can be accessed by this [link](...)
 
     - Represent: 
 
-        * Exposure of last months challenge winners art.
-        * Emphasize the exposure of art.
-        * Shows photography from users.
+        * Exposure of the last month´s challenge winner.
+        * Emphasizing the exposure of art.
+        * Shows photography from the challenge winner.
         * Invites to fill out the challenge form.
 
 

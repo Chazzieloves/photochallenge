@@ -1,4 +1,4 @@
-/*Google fonts*/
+/*google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@300&display=swap');
 
 * {
@@ -11,8 +11,10 @@ body {
     font-family: "Cormorant", sans-serif;
     color: white;
     background-image: url("../images/background.png");
-    background-repeat: repeat;
+    background-repeat: repeat-y;
     background-color: black;
+    background-size: contain;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,31 +22,16 @@ body {
     width: 100%;
 }
 
-/*hero image, navbar and logo*/
+/*logo navbar and hero-image*/
 header {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
-    z-index: 99;
     font-family: "Cinzel", sans-serif;
 }
 
-#hero-image {
-    display: flex;
-    height: 600px;
-    width: 100%;
-    margin-top: 35px;
-    background: url(../images/camera.png) no-repeat bottom;
-    background-position: bottom;
-    background-size: cover;
-
-    /*animate the zoom effect on loading page*/
-    animation-name: hero-zoom;
-    animation-duration: 3s;
-}
-
-.main_menu {
+.main-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,6 +40,7 @@ header {
     position: fixed;
     background-color: black;
     box-shadow: white 0px 0px 10px;
+    z-index: 99;
 }
 
 .logo {
@@ -73,7 +61,6 @@ header {
 
 #menu {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -92,14 +79,29 @@ header {
     color: white;
 }
 
+#hero-image {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background: url(../images/camera.png) no-repeat bottom;
+    background-size: contain;
+    background-position: top;
+    margin-top: 80px;
+
+    /*animate the zoom effect on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+}
+
 /* create level of zoom hero-image*/
 @keyframes hero-zoom {
+
     from {
-        transform: scale(1);
+        transform: scale(1.1);
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(1);
     }
 }
 
@@ -113,7 +115,12 @@ main {
     width: 100%;
 }
 
-/*this months challenge winner*/
+/*The winner of "The Rebel Challenge*/
+
+.this-month {
+    display: flex;
+    flex-direction: column;
+}
 
 .winner {
     display: flex;
@@ -124,7 +131,12 @@ main {
     font-size: 250%;
 }
 
-/*how it works*/
+#winnerphoto {
+    display: flex;
+    width: 100%;
+}
+
+/*How? section*/
 
 #how-it-works {
     display: flex;
@@ -327,8 +339,15 @@ footer h6 {
     color: white;
 }
 
-@media (max-width: 400px) {
-    #hero-image {
-        display: block;
+@media screen and (max-width: 1200px) {
+    .hero-image {
+        flex: 0 1 auto;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    body {
+        flex: 0 1 auto;
     }
 }
