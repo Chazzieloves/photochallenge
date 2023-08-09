@@ -1,5 +1,5 @@
 /*google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@300&family=Rock+Salt&display=swap');
 
 * {
     margin: 0;
@@ -10,14 +10,11 @@
 body {
     font-family: "Cormorant", sans-serif;
     color: white;
-    background-image: url("../images/background.png");
-    background-repeat: repeat-y;
-    background-color: black;
-    background-size: contain;
-    background-position: center center;
+    background-color: #10061a;
+    background-image: linear-gradient(to right, #10061a, black, #10061a);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
 }
@@ -25,9 +22,10 @@ body {
 /*logo navbar and hero-image*/
 header {
     display: flex;
+    height: auto;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-family: "Cinzel", sans-serif;
 }
 
@@ -46,13 +44,17 @@ header {
 .logo {
     display: flex;
     color: white;
-    padding-left: 30px;
+    padding-left: 2vw;
+}
+
+.logo a h1:hover {
+    border-bottom: 1px solid white;
 }
 
 .click-menu {
     display: flex;
-    margin-top: 30px;
-    padding-right: 30px;
+    margin-top: 3vh;
+    padding-right: 2vw;
 }
 
 .main_menu a:hover {
@@ -81,28 +83,16 @@ header {
 
 #hero-image {
     display: flex;
-    height: 600px;
-    width: 100%;
-    background: url(../images/camera.png) no-repeat bottom;
+    height: 60vh;
+    width: 100vw;
+    background: url(../images/camera.png) no-repeat;
+    background-color: #10061a;
     background-size: contain;
-    background-position: top;
-    margin-top: 80px;
-
-    /*animate the zoom effect on loading page*/
-    animation-name: hero-zoom;
-    animation-duration: 3s;
-}
-
-/* create level of zoom hero-image*/
-@keyframes hero-zoom {
-
-    from {
-        transform: scale(1.1);
-    }
-
-    to {
-        transform: scale(1);
-    }
+    background-position: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
 }
 
 /*main section*/
@@ -110,9 +100,9 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 /*The winner of "The Rebel Challenge*/
@@ -120,20 +110,58 @@ main {
 .this-month {
     display: flex;
     flex-direction: column;
+    margin-top: 8vh;
 }
 
 .winner {
     display: flex;
-    justify-content: flex-end;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner h1 {
+    font-size: 200%;
+    font-family: "Rock Salt", sans-serif;
 }
 
 .winner p {
-    font-size: 250%;
+    font-size: 100%;
 }
 
 #winnerphoto {
     display: flex;
+    height: auto;
     width: 100%;
+    background: url(../images/woman-gasmasc.jpg) no-repeat;
+    background-position: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.more-photos {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.to-challenge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vh;
+}
+
+.to-challenge button {
+    background-color: black;
+    color: white;
+    padding: 1vh;
 }
 
 /*How? section*/
@@ -342,12 +370,103 @@ footer h6 {
 @media screen and (max-width: 1200px) {
     .hero-image {
         flex: 0 1 auto;
+        padding: 0;
     }
+
 
 }
 
 @media screen and (max-width: 950px) {
     body {
-        flex: 0 1 auto;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-left: 6vw;
+    }
+
+    .click-menu {
+        margin-right: 6vw;
+    }
+
+    #hero-image {
+        height: 50vh;
+        margin-bottom: 0;
+    }
+
+    .this-month {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1vh;
+        z-index: 50;
+    }
+
+    .winner {
+        justify-content: center;
+        padding: 0;
+        margin-top: 1vh;
+    }
+
+    .winnerphoto {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        width: 100%;
+        position: cover;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 13vh;
+        top: 0;
+        position: fixed;
+        background-color: black;
+        background-size: contain;
+        box-shadow: white 0px 0px 10px;
+        z-index: 99;
+    }
+
+    .logo {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        font-size: 9vw;
+        margin-top: 3vh;
+    }
+
+    .click-menu {
+        align-items: center;
+        margin: 5px;
+    }
+
+    #hero-image {
+        padding: 0;
+        margin-top: 10vh;
+        height: 30vh;
+    }
+
+    .this-month {
+        margin-top: 0vh;
+    }
+
+    .winner {
+        margin-top: 0vh;
+    }
+
+    footer {
+        margin-top: 3vh;
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .winner h1 {
+        font-size: 150%;
     }
 }
