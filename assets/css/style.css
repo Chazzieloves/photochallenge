@@ -1,5 +1,5 @@
 /*google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@300&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@300&family=Dancing+Script:wght@700&family=Rock+Salt&display=swap');
 
 * {
     margin: 0;
@@ -27,6 +27,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     font-family: "Cinzel", sans-serif;
+    text-shadow: 3px 2px 1px black;
 }
 
 .main-menu {
@@ -36,8 +37,8 @@ header {
     width: 100%;
     top: 0;
     position: fixed;
-    background-color: black;
-    box-shadow: white 0px 0px 10px;
+    background-color: #2B2929;
+    box-shadow: #10061a 0px 0px 10px;
     z-index: 99;
 }
 
@@ -86,8 +87,8 @@ header {
     height: 60vh;
     width: 100vw;
     background: url(../images/camera.png) no-repeat;
-    background-color: #10061a;
     background-size: contain;
+    background-color: black;
     background-position: center;
     align-self: center;
     align-items: center;
@@ -110,6 +111,7 @@ main {
 .this-month {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin-top: 8vh;
 }
 
@@ -124,6 +126,7 @@ main {
 .winner h1 {
     font-size: 200%;
     font-family: "Rock Salt", sans-serif;
+    text-shadow: 5px 2px 10px yellow;
 }
 
 .winner p {
@@ -159,16 +162,27 @@ main {
 }
 
 .to-challenge button {
-    background-color: black;
+    background-color: #2B2929;
     color: white;
-    padding: 1vh;
+    margin: 10vh;
+    padding: 1em;
+    font-size: 200%;
+    font-family: "Rock Salt", sans-serif;
+    text-shadow: 5px 2px 6px black;
 }
 
 /*How? section*/
 
+section h1 {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    width: 100%;
+    background: none;
+}
+
 #how-it-works {
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: space-around;
 }
 
@@ -176,30 +190,86 @@ main {
     display: flex;
     background-color: #2B2929;
     width: 30%;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: column;
+    text-align: center;
     padding-top: 10px;
+    border-radius: 25px;
+    border: 2px solid #5F2983;
 }
 
 #center-about {
     display: flex;
     background-color: #2B2929;
     width: 30%;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: column;
+    text-align: center;
     padding-top: 10px;
+    border-radius: 25px;
+    border: 2px solid #5F2983;
 }
 
 #right-about {
     display: flex;
     background-color: #2B2929;
     width: 30%;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: column;
+    text-align: center;
     padding-top: 10px;
+    border-radius: 25px;
+    border: 2px solid #5F2983;
+}
+
+section h3 {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    width: 100%;
+    background: none;
+    text-align: center;
 }
 
 /*challenge form*/
+
+.secret-garden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5vh;
+}
+
+.secret-garden h1 {
+    font-size: 300%;
+    font-family: "Dancing Script", sans-serif;
+    text-shadow: 5px 2px 10px rgba(255, 0, 234, 0.774);
+    text-align: center;
+    z-index: 50;
+}
+
+.secret-garden h2 {
+    font-size: 250%;
+    text-shadow: 5px 2px 10px rgba(255, 0, 234, 0.774);
+    text-align: center;
+    margin-bottom: 5vh;
+    z-index: 50;
+}
+
+#garden {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/secret-garden.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    z-index: 0;
+}
 
 #ready {
     display: flex;
@@ -258,7 +328,7 @@ main {
 
 .flex-outer>li>label,
 .flex-outer li p {
-    flex: 1 0 120px;
+    flex: 1 1 120px;
     max-width: 220px;
 }
 
@@ -322,6 +392,7 @@ footer h6 {
     justify-content: space-around;
     align-items: center;
     width: 20%;
+    font-size: 200%;
 }
 
 .footer-icons a {
@@ -331,21 +402,39 @@ footer h6 {
 
 /*Thank you for particapating*/
 
+.thanks {
+    display: flex;
+    background-image: url(../images/background.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.done {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .redirect {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
+    height: 50%;
     background-color: #2B2929;
     margin-top: 20%;
+    margin-bottom: 20%;
     padding: 2em;
+    border-radius: 25px;
+    border: 2px solid #25053a;
 }
 
 .thank-you {
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
+    width: 100%;
+    text-align: center;
 }
 
 #go-back {
@@ -360,23 +449,225 @@ footer h6 {
     align-items: center;
     width: 100%;
     background-color: #2B2929;
-    padding: 2em;
+    padding: 1em;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 230%;
 }
 
 .return a {
     color: white;
 }
 
+@media screen and (min-width: 1600px) {
+
+    /*Navbar*/
+
+    #menu {
+        font-size: 160%;
+    }
+
+    /*Home section*/
+
+    .winner {
+        font-size: 200%;
+    }
+
+    #winnerphoto {
+        height: 100vh;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .more-photos h3 {
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        font-size: 300%;
+    }
+
+    button {
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+        font-size: 300%;
+        font-family: "Rock Salt", sans-serif;
+    }
+
+    /*How? section*/
+
+    section h1 {
+        font-size: 600%;
+    }
+
+    #how-it-works {
+        font-size: 200%;
+    }
+
+    #left-about {
+        font-size: 60%;
+    }
+
+    #center-about {
+        font-size: 60%;
+    }
+
+    #right-about {
+        font-size: 60%;
+    }
+
+    #left-about h2 {
+        font-size: 450%;
+    }
+
+    #center-about h2 {
+        font-size: 450%;
+    }
+
+    #right-about h2 {
+        font-size: 450%;
+    }
+
+    section h3 {
+        font-size: 400%;
+    }
+
+    /*Challenge form*/
+
+    .secret-garden h1 {
+        font-size: 600%;
+    }
+
+    .secret-garden h2 {
+        font-size: 400%;
+    }
+
+    #ready {
+        font-size: 600%;
+    }
+
+    section p {
+        font-size: 200%;
+    }
+
+    .container {
+        font-size: 150%;
+    }
+
+    /*footer*/
+
+    footer {
+        font-size: 200%;
+    }
+
+    .footer-icons {
+        width: 100%;
+        margin-bottom: 2vh;
+        font-size: 150%;
+    }
+
+    /* submit page */
+
+    #go-back {
+        font-size: 200%;
+    }
+
+    .return {
+        font-size: 300%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .secret-garden h1 {
+        font-size: 500%;
+    }
+
+    .secret-garden h2 {
+        font-size: 200%;
+    }
+
+    #garden {
+        height: 100vh;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    #ready {
+        font-size: 300%;
+    }
+
+    section p {
+        font-size: 150%;
+    }
+
+    #go-back {
+        font-size: 120%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 1200px) {
+
+    /*header*/
+
     .hero-image {
         flex: 0 1 auto;
         padding: 0;
     }
 
+    /*Home section*/
 
+    .to-challenge button {
+        font-size: 200%;
+    }
+
+    /*Challenge form*/
+
+    .secret-garden h1 {
+        font-size: 300%;
+        margin: 1vh;
+    }
+
+    .secret-garden h2 {
+        font-size: 200%;
+        margin-bottom: 1vh;
+    }
+
+    #garden {
+        height: 100vh;
+        width: 100%;
+        object-fit: contain;
+        margin-top: 1vh;
+    }
+
+    #ready {
+        font-size: 300%;
+        margin-top: 1vh;
+    }
+
+    section p {
+        font-size: 150%;
+    }
+
+    /*footer*/
+
+    .footer-icons {
+        width: 100%;
+        margin-bottom: 2vh;
+        font-size: 150%;
+    }
+
+    /* submit page */
+
+    #go-back {
+        font-size: 110%;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 950px) {
+
+    /*header*/
     body {
         flex-direction: column;
     }
@@ -393,6 +684,8 @@ footer h6 {
         height: 50vh;
         margin-bottom: 0;
     }
+
+    /*Home section*/
 
     .this-month {
         flex-direction: column;
@@ -411,9 +704,116 @@ footer h6 {
     .winnerphoto {
         margin-top: 0px;
     }
+
+    /*How? section*/
+
+    .how-it-works {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2vh;
+    }
+
+    #left-about {
+        display: flex;
+        background-color: #2B2929;
+        width: 30%;
+        align-items: flex-start;
+        justify-content: column;
+        text-align: center;
+        font-size: 100%;
+        padding-top: 10px;
+        border-radius: 25px;
+        border: 2px solid #5F2983;
+    }
+
+    #center-about {
+        display: flex;
+        background-color: #2B2929;
+        width: 30%;
+        align-items: flex-start;
+        justify-content: column;
+        text-align: center;
+        font-size: 100%;
+        padding-top: 10px;
+        border-radius: 25px;
+        border: 2px solid #5F2983;
+    }
+
+    #right-about {
+        display: flex;
+        background-color: #2B2929;
+        width: 30%;
+        align-items: flex-start;
+        justify-content: column;
+        text-align: center;
+        font-size: 100%;
+        padding-top: 10px;
+        border-radius: 25px;
+        border: 2px solid #5F2983;
+    }
+
+    /*Challenge form*/
+
+    #garden {
+        height: 70vh;
+        width: 100%;
+        margin-top: 1vh;
+    }
+
+    #ready {
+        font-size: 200%;
+        margin-top: 0;
+    }
+
+    section p {
+        font-size: 100%;
+    }
+
+    /*footer*/
+
+    .footer-icons {
+        width: 100%;
+        margin-bottom: 2vh;
+        font-size: 150%;
+    }
+
+    /* submit page */
+
+    .thanks {
+        font-size: 190%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .redirect {
+        font-size: 90%;
+    }
+
+    #go-back {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #go-back li p {
+        font-size: 80%;
+    }
+
+    .return {
+        font-size: 120%;
+        padding: 1vw;
+    }
+
+    .return a {
+        font-size: 130%;
+    }
 }
 
 @media screen and (max-width: 575px) {
+
+    /*header, navbar and background*/
+
     body {
         width: 100%;
         position: cover;
@@ -424,19 +824,16 @@ footer h6 {
         justify-content: flex-start;
         align-items: center;
         width: 100%;
-        height: 13vh;
+        height: 15vh;
         top: 0;
         position: fixed;
-        background-color: black;
         background-size: contain;
-        box-shadow: white 0px 0px 10px;
-        z-index: 99;
     }
 
     .logo {
         margin-left: 3vw;
         margin-right: 3vw;
-        font-size: 9vw;
+        font-size: 8vw;
         margin-top: 3vh;
     }
 
@@ -451,6 +848,8 @@ footer h6 {
         height: 30vh;
     }
 
+    /*Home main section*/
+
     .this-month {
         margin-top: 0vh;
     }
@@ -459,14 +858,210 @@ footer h6 {
         margin-top: 0vh;
     }
 
+    .to-challenge button {
+        font-size: 150%;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    /*How? section*/
+
+    section h1 {
+        margin-top: 0vh;
+        margin-bottom: 2vh;
+        width: 100%;
+        background: none;
+    }
+
+    #how-it-works {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 70%;
+        padding: 2vh;
+    }
+
+    #left-about {
+        width: 100%;
+        margin-bottom: 2vh;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    #center-about {
+        width: 100%;
+        margin-bottom: 2vh;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    #right-about {
+        width: 100%;
+        margin-bottom: 2vh;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    section h3 {
+        margin-top: 8vh;
+        margin-bottom: 8vh;
+        width: 100%;
+        background: none;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    /*Challenge form*/
+
+    .secret-garden h1 {
+        font-size: 210%;
+        margin-top: 0vh;
+    }
+
+    .secret-garden h2 {
+        font-size: 150%;
+    }
+
+    #garden {
+        height: 40vh;
+        width: 100%;
+        margin-top: 1vh;
+    }
+
+    #ready {
+        font-size: 150%;
+        margin-top: 0;
+    }
+
+    section p {
+        font-size: 80%;
+    }
+
+    /*footer*/
+
     footer {
         margin-top: 3vh;
         font-size: 70%;
     }
+
+    .footer-icons {
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+
+    /*Submit page*/
+
+    .redirect {
+        font-size: 110%;
+        padding: 0;
+        width: 80%;
+        margin: 50%;
+    }
+
+    .thank-you {
+        padding: 0;
+        margin: 0;
+    }
+
+    #go-back {
+        font-size: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #go-back li p {
+        font-size: 110%;
+        margin-bottom: 3vh;
+    }
+
+    .return {
+        font-size: 150%;
+        padding: 0;
+        margin-bottom: 4vh;
+    }
 }
 
 @media screen and (max-width: 430px) {
+
+    /*header*/
+
+    .main-menu {
+        height: 13vh;
+    }
+
+    /*Home section*/
+
     .winner h1 {
         font-size: 150%;
+    }
+
+    .to-challenge button {
+        font-size: 80%;
+        padding: 2vh;
+    }
+
+    /*How? section*/
+
+    section h1 {
+        font-size: 150%;
+    }
+
+    /*Challenge form*/
+
+    .secret-garden {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 100%;
+        padding: 0vh;
+    }
+
+    .secret-garden h1 {
+        font-size: 180%;
+        margin-top: 0vh;
+    }
+
+    #garden {
+        height: 28vh;
+        width: 100%;
+        margin-top: 1vh;
+    }
+
+    #ready {
+        font-size: 150%;
+        margin-top: 4vh;
+    }
+
+    section p {
+        font-size: 90%;
+        margin-left: 4vh;
+        margin-right: 4vh;
+        text-align: center;
+    }
+
+    .flex-outer li {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-outer li label {
+        padding: 0;
+        margin: 0;
+        font-weight: 0;
+    }
+
+    /*submit page*/
+
+    .thanks {
+        font-size: 150%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .redirect {
+        font-size: 100%;
+        padding: 0;
+        width: 80%;
+        margin: 50% 0 50% 0;
     }
 }
