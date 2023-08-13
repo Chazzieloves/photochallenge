@@ -1,7 +1,7 @@
 Photo Challenge
 
 A website where you can apply your photography in a challenge and win exposure on our website. The challenges vary each month and the winner gets 1 month of exposure on the homepage.
-The site can be accessed here [link](...)
+The site can be accessed here [link](https://chazzieloves.github.io/photochallenge/)
 
 ## Features
 
