@@ -11,14 +11,14 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
     - Positioned at the top of the page.
     - Contains the logotype of the company on the left side.
     - Contains navigation links on the right side:
-        * Home - leads to the "Home" page where users can see the last challenge winner art.
+        * Home - leads to the "Home" page where users can see the last challenge winner photography.
         * How? - leads to the "How?" page where users can see past challenge winners and get information on how to participate in a monthly challenge.
-        * Challenge - leads to the "challenge form" page where users can fill out the form and submit their contribution to the challenge.
+        * Challenge - leads to the "challenge form" page where users can see the next challenge and fill out the form and submit their contribution to the challenge.
     - The links have an animated hover effect.
     - The navigation is clear and easy to understand for the user.
 
     - The navigation bar is responsive:
-        * On tablets: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
+        * On Mobile-devices: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
 
      
 
@@ -126,11 +126,18 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
 ## Technologies Used
 
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
+- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was used to declaring global CSS variables and apply them throughout the project. 
 ​- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
+- [Bootstrap] (https://getbootstrap.com/) was used to add slideshow on "Home" and "How?" page.
+- Github pages
 
 
 ## Design
@@ -139,11 +146,11 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
 ![Color pallet](documentation/color_pallet.png)
 
-- A black background was used to make a depth in the background to better highlight the photographies I added design to the background it gives the effect of cameras flashing. This will make the photographers associate it with something they love doing, taking breathtaking phos.
+- A dark purple color gradient with black in the middle was used to make a depth in the background to better highlight the photographies from the winner. I added design to the response-page background that gives the effect of cameras flashing. This will make the photographers associate it with something they love doing, taking breathtaking photos.
 
 - I used white text color to make the text easily read. It also gives photos displayed on the website more room for colors without the background disturbing.
 
-- White color was used to maintain the neutral colors on the logo and leave a more room for the photos to be the center of attention.
+- Yellow and pink color was used to make the challenge headlines pop and make the user more interested in the challenges. 
 
 
 
