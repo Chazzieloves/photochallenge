@@ -20,32 +20,32 @@
 <body>
     <header>
         <div class="main-menu">
-            <a href="index.html">
+            <a href="index.html" aria-label="Go to homepage">
                 <h1 class="logo">Photo Challenge</h1>
             </a>
             <nav class="click-menu">
                 <ul id="menu">
                     <li>
-                        <a id="click" href="index.html">Home</a>
+                        <a id="click" href="index.html" aria-label="Go to home-page">Home</a>
                     </li>
                     <br>
                     <li>
-                        <a id="click" href="how-does-it-work.html">How?</a>
+                        <a id="click" href="how-does-it-work.html" aria-label="Go to how-page">How?</a>
                     </li>
                     <br>
                     <li>
-                        <a id="click" href="challenge.html">Challenge</a>
+                        <a id="click" href="challenge.html" aria-label="Go to challenge-page">Challenge</a>
                     </li>
                 </ul>
             </nav>
         </div>
-        <div id="hero-image"></div>
+        <div id="hero-image" alt="Image of camera"></div>
     </header>
     <main>
         <section class="secret-garden">
             <h1>Next months challenge is...</h1>
             <h2>Secret garden</h2>
-            <img src="assets/images/garden.jpg" alt="Garden" id="garden">
+            <img src="assets/images/garden.jpg" alt="Image of a garden" id="garden">
         </section>
         <section>
             <h1 id="ready">Ready for the challenge?</h1>
@@ -53,19 +53,19 @@
         </section>
         <br>
         <div class="container">
-            <form action="http://127.0.0.1:5500/submit-response.html" id="particapate" method="get">
+            <form action="submit-response.html" id="particapate" method="get">
                 <ul class="flex-outer">
                     <li>
                         <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" placeholder="Enter your first name here">
+                        <input type="text" id="first-name" placeholder="Enter your first name here" required>
                     </li>
                     <li>
                         <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" placeholder="Enter your last name here">
+                        <input type="text" id="last-name" placeholder="Enter your last name here" required>
                     </li>
                     <li>
                         <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Enter your email here">
+                        <input type="email" id="email" placeholder="Enter your email here" required>
                     </li>
                     <li>
                         <label for="phone">Phone</label>
@@ -73,12 +73,12 @@
                     </li>
                     <li>
                         <label for="upload">Photography</label>
-                        <input type="file" id="myFile" name="filename">
+                        <input type="file" id="myFile" name="filename" required>
                     </li>
                     <li>
                         <label for="describe">Describe</label>
                         <textarea rows="8" id="describe"
-                            placeholder="Describe why your photography should win this challenge"></textarea>
+                            placeholder="Describe why your photography should win this challenge" required></textarea>
                     </li>
                     <li>
                         <label for="submit" id="submit">#</label>
@@ -94,13 +94,24 @@
     </main>
     <br>
     <footer>
-        <h6>Find Photo Challenge on social media:</h6>
-        <br>
-        <div class="footer-icons">
-            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
-            <a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
-        </div>
+        <h6>Find The Photo Challenge on:</h6>
+        <ul class="footer-icon">
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </li>
+        </ul>
     </footer>
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

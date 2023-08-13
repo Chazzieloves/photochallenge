@@ -86,7 +86,7 @@ header {
     display: flex;
     height: 60vh;
     width: 100vw;
-    background: url(../images/camera.png) no-repeat;
+    background: url("../images/camera.png") no-repeat;
     background-size: contain;
     background-color: black;
     background-position: center;
@@ -137,7 +137,7 @@ main {
     display: flex;
     height: auto;
     width: 100%;
-    background: url(../images/woman-gasmasc.jpg) no-repeat;
+    background: url("../images/woman-gasmasc.jpg") no-repeat;
     background-position: center;
     align-self: center;
     align-items: center;
@@ -261,8 +261,8 @@ section h3 {
     display: flex;
     height: 100vh;
     width: 100vw;
-    background: url(../images/secret-garden.jpg) no-repeat;
-    background-size: cover;
+    background: url("../images/garden.jpg") no-repeat;
+    background-size: contain;
     background-position: center;
     align-self: center;
     align-items: center;
@@ -384,15 +384,17 @@ footer {
 
 footer h6 {
     font-size: 150%;
+    font-family: "Cormorant", sans-serif;
 }
 
-.footer-icons {
+.footer-icon {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 20%;
     font-size: 200%;
+    list-style-type: none;
 }
 
 .footer-icons a {
@@ -404,7 +406,7 @@ footer h6 {
 
 .thanks {
     display: flex;
-    background-image: url(../images/background.png);
+    background-image: url("../images/background.png");
     background-repeat: repeat-y;
     background-size: contain;
 }
@@ -425,7 +427,7 @@ footer h6 {
     width: 50%;
     height: 50%;
     background-color: #2B2929;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 20%;
     padding: 2em;
     border-radius: 25px;
