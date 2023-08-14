@@ -1,7 +1,7 @@
 Photo Challenge
 
 A website where you can apply your photography in a challenge and win exposure on our website. The challenges vary each month and the winner gets 1 month of exposure on the homepage.
-The site can be accessed here [link](...)
+The site can be accessed here [link](https://chazzieloves.github.io/photochallenge/)
 
 ## Features
 
@@ -76,11 +76,11 @@ The site can be accessed here [link](...)
 
   ---
 
-  + ### How does it work Page
+  + ### How? Page
     
-    - Has a header identical to the home page
+    - How? has a header identical to the Home page
       
-    - How does it work page has a hero image and challenge introduction for the visitors that contains an explanation about how the challenge works.
+    - How? page has a hero image and challenge introduction for the visitors that contains an explanation about how the challenge works.
 
     - Past challenge winners Section has three more photographies from the previous winners.
 
@@ -102,58 +102,135 @@ The site can be accessed here [link](...)
 
         - All text input fields are customized.
         - Labels are animated when the input field is in focus and are not empty.
-        - All inputs are set to be required to fill out.
-        - It has to checkboxes for the visitors to fill voluntary:
-
-            - The 1st is - ADAPT, which helps the company to understand the motive of the visitor.
-            - The 2nd is - DONATE, which motivates users to consider financial support for the company. 
-
-        - The submit button is animated on hover.
+        - All inputs, except phon-number, are set to be required to fill out.
 
     - The page is responsive on all common screen sizes.
 
-    - The submit button leads to the response page.
+    - The submit button leads to the submit-response page.
 
 
 ---
-+ ### Response page
++ ### Submit-response page
 
-    - Response page appears after submitting the challenge form.
-    - It contains the thank you message and the promise to get in touch with the user when a winner has been selected.
+    - Submit response page appears after submitting the challenge form.
+    - It contains a thank you message and the promise to get in touch with the user when a winner has been selected.
     - There is a return button to the Home page.
 
 ---
 
 ## Technologies Used
 
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
+- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was used to declaring global CSS variables and apply them throughout the project. 
 ​- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
 
+---
 
 ## Design
 
 ### Color Scheme
 
-![Color pallet](documentation/color_pallet.png)
-
-- A black background was used to make a depth in the background to better highlight the photographies I added design to the background it gives the effect of cameras flashing. This will make the photographers associate it with something they love doing, taking breathtaking phos.
+- A background gradient in black and dark purple was used to make a depth in the background to better highlight the photographies. I added a design to the background on the submit-response page, that gives the effect of cameras flashing. This will make the photographers associate it with something they love doing, taking breathtaking phos.
 
 - I used white text color to make the text easily read. It also gives photos displayed on the website more room for colors without the background disturbing.
 
-- White color was used to maintain the neutral colors on the logo and leave a more room for the photos to be the center of attention.
+- Backgroundcolor was used to enhance the next challenge and the last month challenge winner.
 
 
 
 ### Typography
 
-url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Urbanist&display=swap');
+url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@300&family=Dancing+Script:wght@700&family=Rock+Salt&display=swap');
 
-- Urbanist Google Font was used as the font of the website in order to increase the simplicity of the content on the pages.
+- Cormorant Google Font was used as the font of the website in order to increase the creative space of the content on the pages.
+- Cinzel Google Font was used as the font of the logo in order to make a clean and minimalistic impression.
+- Dancing Script Google Font was used as the font of the next month challenge in order to make it fit the challenge.
+- Rock Salt Google Font was used as the font of this month challenge winner in order to draw attetion to the challenge winner.
+
+### Wireframes
+
+#### Desktop
+
+- [Home Page. Desktop Screen](documentation/desktop_home_page.png)
+- [Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
+- [Contact Page. Desktop Screen](documentation/desktop_contact_form_page.png)
+- [Response Page. Desktop Screen](documentation/desktop_response_page.png)
+
+---
+
+## Testing
+
+Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+
+---
 
 
-I didn´t have time to finish more than what I have done, so far, due to problems with codeanywhere workspace credits, I lost a lot of valuable study time. I have asked Student Care to get an extension for the lost study-time, but I haven´t heard back from them yet. So this is what I´ve got so far. I hope I will be abled to show you the finished wbesite.
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/Chazzieloves/photochallenge), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://chazzieloves.github.io/photochallenge/)
+
+## Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/Chazzieloves/photochallenge.git`
+
+---
+
+## Future improvements
+- improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
+- correct the slideshow of images so they do not overflow.
+
+---
+
+## Credits
+
++ #### Content
+
+    - Inspiration for the background gradient effect came from the article "CSS Gradients" published the website [W3 schools etc](https://www.w3schools.com/](https://www.w3schools.com/css/css3_gradients.asp)).
+    - Inspiration for the image slideshows came from [Code Instinct](https://www.youtube.com/@CodeInstinct) on his YouTube channel. I could not quite figure out how to make the slideshow work with flexbox so I used bootstrap instead.
+ 
+  + #### Media
+
+    - All the images for the website were taken from [Unsplash](https://unsplash.com/) or my own design/photo.
+    + [Hero image] was made by me in the program Canva.
+    + Home page, challenge winner images:
+        - All of the images was captured by my friend and photographer Photo by Brenke.
+    + How? page, slideshow: 
+        - [1st image](https://free-images.com/display/landscape_sunset_mountains_1624987.html);
+        - [2nd image](https://free-images.com/display/stone_house_old_house.html);
+        - [3rd image](https://free-images.com/display/water_cascade_nature_waters.html).
+    + Challenge page:
+         - [Next challenge image](https://free-images.com/display/garden_classical_garden_magnolia.html);
+
++ #### Tools
+
+    - [Birme](https://www.birme.net/) was used to cut the images to fit the slideshow.
+    - [Canva](https://www.canva.com/) was used to create both the hero-image and the background for the submit-respons page.
+    - [RapidTables](https://www.rapidtables.com/) was used to create the color palette.
+ 
+  ---
+
+## Acknowledgments
+
+- [Code Institute](https://codeinstitute.net/) My mentor that helped me understand errors I made through out this project and encouraged me to keep going.
+- [Pierre Balkhed]() my friend who works with IT, he looked at my code and website and gave me valuable advice.
+- [Carlo Zancaner]() my partner, sat with me for many hours and helped me with problemsolving.
+- [Claudia Zancaner]() my partners mom, she engaged herself and let me explain and teach her about coding, which helped me understand what I was supposed to do moving forward.
+
+---
 
 
