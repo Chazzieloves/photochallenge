@@ -669,11 +669,6 @@ footer h6 {
 
 @media screen and (max-width: 950px) {
 
-    /*header*/
-    body {
-        flex-direction: column;
-    }
-
     .logo {
         margin-left: 6vw;
     }
@@ -815,11 +810,6 @@ footer h6 {
 @media screen and (max-width: 575px) {
 
     /*header, navbar and background*/
-
-    body {
-        width: 100%;
-        position: cover;
-    }
 
     .main-menu {
         flex-direction: column;
