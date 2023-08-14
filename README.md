@@ -1,6 +1,8 @@
-Photo Challenge
 
-A website where you can apply your photography in a challenge and win exposure on our website. The challenges vary each month and the winner gets 1 month of exposure on the homepage.
+
+# *Photo Challenge*
+
+A website where a user can compete with their photography in a challenge and win exposure on our website. The challenges vary each month and the winner gets 1 month of exposure on the homepage.
 The site can be accessed here [link](https://chazzieloves.github.io/photochallenge/)
 
 ## Features
@@ -11,14 +13,16 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
     - Positioned at the top of the page.
     - Contains the logotype of the company on the left side.
     - Contains navigation links on the right side:
-        * Home - leads to the "Home" page where users can see the last challenge winner art.
+        * Home - leads to the "Home" page where users can see the last challenge winner photo and exposure of the winners photography.
         * How? - leads to the "How?" page where users can see past challenge winners and get information on how to participate in a monthly challenge.
-        * Challenge - leads to the "challenge form" page where users can fill out the form and submit their contribution to the challenge.
+        * Challenge - leads to the "challenge form" page where users can fill out the form and participate in the next challenge and see what the next challenge is.
     - The links have an animated hover effect.
     - The navigation is clear and easy to understand for the user.
 
+
+    
     - The navigation bar is responsive:
-        * On tablets: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
+        * On mobile-phones: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
 
      
 
@@ -30,8 +34,8 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
     - Represent: 
 
         * Exposure of the last month´s challenge winner.
-        * Emphasizing the exposure of art.
-        * Shows photography from the challenge winner.
+        * Emphasizing the exposure of the winning photography.
+        * Shows other photographies from the challenge winner.
         * Invites to fill out the challenge form.
 
 
@@ -41,6 +45,8 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 + #### Hero Section
 
     - Hero section have a background image.
+ 
+  
      
  --- 
 
