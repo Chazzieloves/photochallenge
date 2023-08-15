@@ -128,9 +128,8 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
-- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - was used to arrange items simmetrically on the pages.
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
-- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was used to declaring global CSS variables and apply them throughout the project. 
 ​- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
@@ -153,7 +152,7 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
 ### Typography
 
-url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@300&family=Dancing+Script:wght@700&family=Rock+Salt&display=swap');
+[Google Font](https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@300&family=Dancing+Script:wght@700&family=Rock+Salt&display=swap)
 
 - Cormorant Google Font was used as the font of the website in order to increase the creative space of the content on the pages.
 - Cinzel Google Font was used as the font of the logo in order to make a clean and minimalistic impression.
@@ -164,10 +163,9 @@ url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:w
 
 #### Desktop
 
-- [Home Page. Desktop Screen](documentation/desktop_home_page.png)
-- [Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
-- [Contact Page. Desktop Screen](documentation/desktop_contact_form_page.png)
-- [Response Page. Desktop Screen](documentation/desktop_response_page.png)
+- [Home Page. Desktop Screen](documentation/wireframes/photochallenge-home.png)
+- [Gallery Page. Desktop Screen](documentation/wireframes/photochallenge-how.png)
+- [Contact Page. Desktop Screen](documentation/wireframes/photochallenge-challenge.png)
 
 ---
 
@@ -206,9 +204,8 @@ In your IDE Terminal, type the following command to clone my repository:
 
 + #### Content
 
-    - Inspiration for the background gradient effect came from the article "CSS Gradients" published the website [W3 schools etc](https://www.w3schools.com/](https://www.w3schools.com/css/css3_gradients.asp)).
-    - Inspiration for the image slideshows came from [Code Instinct](https://www.youtube.com/@CodeInstinct) on his YouTube channel. I could not quite figure out how to make the slideshow work with flexbox so I used bootstrap instead.
- 
+    - Inspiration for the background gradient effect came from the article "CSS Gradients" published the website [W3 schools etc](https://www.w3schools.com/](https://www.w3schools.com/css/css3_gradients.asp).
+    - 
   + #### Media
 
     - All the images for the website were taken from [Unsplash](https://unsplash.com/) or my own design/photo.
