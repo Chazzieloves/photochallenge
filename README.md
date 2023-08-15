@@ -195,7 +195,7 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
 ## Testing
 
-Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+- The project was tested through: https://validator.w3.org/
 
 ---
 
