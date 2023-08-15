@@ -153,23 +153,21 @@ main {
 }
 
 .to-challenge {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 8vh;
-}
-
-.to-challenge a {
     background-color: #2B2929;
     color: white;
     margin: 10vh;
     padding: 1em;
-    font-size: 200%;
+    font-size: 100%;
     font-family: "Rock Salt", sans-serif;
     text-shadow: 5px 2px 6px black;
     border-radius: 50%;
+    height: 10vh;
+    width: 35%;
+}
+
+.to-challenge a {
+    color: white;
+    font-size: 150%;
 }
 
 /*How? section*/
@@ -487,11 +485,8 @@ footer h6 {
         font-size: 300%;
     }
 
-    button {
-        margin-bottom: 10vh;
-        margin-top: 10vh;
-        font-size: 300%;
-        font-family: "Rock Salt", sans-serif;
+    .to-challenge a {
+        font-size: 200%;
     }
 
     /*How? section*/
@@ -578,6 +573,9 @@ footer h6 {
 }
 
 @media screen and (min-width: 1200px) {
+    .to-challenge a {
+        font-size: 120%;
+    }
 
     .secret-garden h1 {
         font-size: 500%;
@@ -619,8 +617,8 @@ footer h6 {
 
     /*Home section*/
 
-    .to-challenge button {
-        font-size: 200%;
+    .to-challenge a {
+        font-size: 90%;
     }
 
     /*Challenge form*/
@@ -707,8 +705,12 @@ footer h6 {
         margin-top: 0px;
     }
 
+    .to-challenge {
+        width: 60%;
+    }
+
     .to-challenge a {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     /*How? section*/
@@ -863,10 +865,12 @@ footer h6 {
         margin-top: 0vh;
     }
 
-    .to-challenge button {
-        font-size: 150%;
-        margin-top: 2vh;
-        margin-bottom: 2vh;
+    .to-challenge {
+        width: 80%;
+    }
+
+    .to-challenge a {
+        font-size: 90%;
     }
 
     /*How? section*/
@@ -1000,9 +1004,12 @@ footer h6 {
         font-size: 150%;
     }
 
-    .to-challenge button {
-        font-size: 80%;
-        padding: 2vh;
+    .to-challenge {
+        width: 90%;
+    }
+
+    .to-challenge a {
+        font-size: 100%;
     }
 
     /*How? section*/
