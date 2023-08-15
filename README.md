@@ -4,7 +4,7 @@
 
 # *Photo Challenge*
 
-A website where a user can compete with their photography in a challenge and win exposure on our website. The challenges vary each month and the winner gets 1 month of exposure on the homepage.
+A website where a user can compete with their photography in a challenge and win exposure on our website. The challenges vary each month and the winner gets one month of exposure on the homepage.
 The site can be accessed here [link](https://chazzieloves.github.io/photochallenge/)
 
 ## Features
@@ -21,12 +21,12 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
     - The links have an animated hover effect.
     - The navigation is clear and easy to understand for the user.
 
-
+![Photo Challenge](documentation/pictures/navbar.PNG)
     
-    - The navigation bar is responsive:
-        * On mobile-phones: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
-
-     
+   - The navigationbar is responsive:
+        * On Mobile devices: The navigationbar splits in two rows.
+          
+![Photo Challenge](documentation/pictures/mobile-navbar.PNG)
 
 
 ---
@@ -58,7 +58,7 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
 + #### Challenge winner Section
 
-  ![Photo Challenge](assets/images/camera.png)
+  ![Photo Challenge](documentation/pictures/challenge-winner.PNG)
 
     - Highlights the challenge winner-picture.
 
@@ -72,19 +72,19 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
  + #### More art from this photographer Section
 
+    ![Photo Challenge](documentation/pictures/winner-slideshow.PNG)
+
     - More art from this photographer Section has three more photographies from the winner.
 
     - Each card has a picture that the photographer get to choose when winning the challenge.
 
     - The slideshow automatically spins after a few second but can also be spun manually.
 
-    - Each card has a name of what is showing on the picture.
-
   ---
   
 + #### Participate Section
 
-   ![Photo Challenge](assets/images/camera.png)
+    ![Photo Challenge](documentation/pictures/participate-button.PNG)
 
     - Participate section encourage user to join in the next challenge by a button.
 
@@ -93,7 +93,7 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
   
   + #### Footer
  
-     ![Photo Challenge](assets/images/camera.png)
+      ![Photo Challenge](documentation/pictures/footer.PNG)
 
     - Footer contains social media links that open in a new tab.
 
@@ -188,8 +188,8 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 #### Desktop
 
 - [Home Page. Desktop Screen](documentation/wireframes/photochallenge-home.png)
-- [Gallery Page. Desktop Screen](documentation/wireframes/photochallenge-how.png)
-- [Contact Page. Desktop Screen](documentation/wireframes/photochallenge-challenge.png)
+- [How? Page. Desktop Screen](documentation/wireframes/photochallenge-how.png)
+- [Challenge Page. Desktop Screen](documentation/wireframes/photochallenge-challenge.png)
 
 ---
 
