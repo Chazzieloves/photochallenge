@@ -103,7 +103,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 /*The winner of "The Rebel Challenge*/
@@ -670,6 +670,10 @@ footer h6 {
 
 @media screen and (max-width: 950px) {
 
+    .main-menu {
+        font-size: 60%;
+    }
+
     .logo {
         margin-left: 6vw;
     }
@@ -701,6 +705,10 @@ footer h6 {
 
     .winnerphoto {
         margin-top: 0px;
+    }
+
+    .to-challenge a {
+        font-size: 110%;
     }
 
     /*How? section*/
@@ -770,10 +778,14 @@ footer h6 {
 
     /*footer*/
 
+    footer {
+        font-size: 70%;
+    }
+
     .footer-icons {
         width: 100%;
         margin-bottom: 2vh;
-        font-size: 150%;
+        font-size: 80%;
     }
 
     /* submit page */
@@ -841,7 +853,7 @@ footer h6 {
         height: 30vh;
     }
 
-    /*Home main section*/
+    /*Home section*/
 
     .this-month {
         margin-top: 0vh;
@@ -934,7 +946,7 @@ footer h6 {
 
     footer {
         margin-top: 3vh;
-        font-size: 70%;
+        font-size: 50%;
     }
 
     .footer-icons {
