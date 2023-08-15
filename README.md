@@ -1,4 +1,6 @@
+![Photo Challenge](assets/images/camera.png)
 
+---
 
 # *Photo Challenge*
 
@@ -129,7 +131,7 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
 - [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - was used to arrange items simmetrically on the pages.
-- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive. 
 ​- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
