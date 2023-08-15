@@ -33,6 +33,8 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
 + ### Home Page
 
+  ![Photo Challenge](documentation/laptop/home-laptop.png)
+
     - Represent: 
 
         * Exposure of the last month´s challenge winner.
@@ -46,6 +48,8 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
 + #### Hero Section
 
+  ![Photo Challenge](assets/images/camera.png)
+
     - Hero section have a background image.
  
   
@@ -53,6 +57,8 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
  --- 
 
 + #### Challenge winner Section
+
+  ![Photo Challenge](assets/images/camera.png)
 
     - Highlights the challenge winner-picture.
 
@@ -73,11 +79,21 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
     - The slideshow automatically spins after a few second but can also be spun manually.
 
     - Each card has a name of what is showing on the picture.
+
+  ---
   
++ #### Participate Section
+
+   ![Photo Challenge](assets/images/camera.png)
+
+    - Participate section encourage user to join in the next challenge by a button.
+
   
   ---
   
   + #### Footer
+ 
+     ![Photo Challenge](assets/images/camera.png)
 
     - Footer contains social media links that open in a new tab.
 
@@ -85,6 +101,8 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
   ---
 
   + ### How? Page
+ 
+     ![Photo Challenge](documentation/laptop/how-laptop.png)
     
     - How? has a header identical to the Home page
       
@@ -104,6 +122,8 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 ---
 + ### Challenge page
 
+   ![Photo Challenge](documentation/laptop/challenge-laptop.png)
+
    - Challenge Page has identical header to Home Page
 
     - Challenge page has a submit form:
@@ -120,6 +140,8 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 ---
 + ### Submit-response page
 
+   ![Photo Challenge](documentation/laptop/submit-laptop.png)
+
     - Submit response page appears after submitting the challenge form.
     - It contains a thank you message and the promise to get in touch with the user when a winner has been selected.
     - There is a return button to the Home page.
@@ -131,12 +153,12 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
 - [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - was used to arrange items simmetrically on the pages.
-- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive. 
-​- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
-- [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
-- [Git](https://git-scm.com/) was used for the version control of the website.
-- [GitHub](https://github.com/) was used to host the code of the website.
-- [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
+- [VSCode](https://code.visualstudio.com/) - was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) - was used for the version control of the website.
+- [GitHub](https://github.com/) - was used to host the code of the website.
+- [GIMP](https://www.gimp.org/) - was used to make and resize images for the README file.
+- [Balsamiq](https://www.balsamiq.com/) - was used to create wireframes for the home, how and challenge page.
 
 ---
 
