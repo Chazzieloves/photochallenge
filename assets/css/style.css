@@ -34,6 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     top: 0;
     position: fixed;
@@ -93,7 +94,7 @@ header {
     align-self: center;
     align-items: center;
     justify-content: center;
-    margin-top: 0;
+    margin-top: 4vh;
 }
 
 /*main section*/
@@ -673,15 +674,17 @@ footer h6 {
     }
 
     .logo {
-        margin-left: 6vw;
+        margin-left: 3vw;
+        font-size: 300%;
     }
 
     .click-menu {
-        margin-right: 6vw;
+        margin-right: 3vw;
     }
 
     #hero-image {
         height: 50vh;
+        margin-top: 0;
         margin-bottom: 0;
     }
 
@@ -828,41 +831,36 @@ footer h6 {
 
     .main-menu {
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
         width: 100%;
-        height: 15vh;
         top: 0;
         position: fixed;
         background-size: contain;
     }
 
     .logo {
-        margin-left: 3vw;
-        margin-right: 3vw;
-        font-size: 8vw;
-        margin-top: 3vh;
+        font-size: 300%;
+        margin-top: 2vh;
     }
 
     .click-menu {
         align-items: center;
-        margin: 5px;
     }
 
     #hero-image {
         padding: 0;
-        margin-top: 10vh;
-        height: 30vh;
+        margin-top: 0;
     }
 
     /*Home section*/
 
     .this-month {
-        margin-top: 0vh;
+        margin-top: 0;
     }
 
     .winner {
-        margin-top: 0vh;
+        margin-top: 0;
     }
 
     .to-challenge {
@@ -996,6 +994,10 @@ footer h6 {
 
     .main-menu {
         height: 13vh;
+    }
+
+    #hero-image {
+        margin-top: 4vh;
     }
 
     /*Home section*/
