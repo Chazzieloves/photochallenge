@@ -4,7 +4,7 @@
 
 # *Photo Challenge*
 
-A website where a user can compete with their photography in a challenge and win exposure on our website. The challenges vary each month and the winner gets one month of exposure on the homepage.
+Photo Challenge is a website where a user can compete with their photography in a challenge and win exposure on the website. The challenges vary each month and the winner gets one month of exposure on the homepage.
 The site can be accessed here [link](https://chazzieloves.github.io/photochallenge/)
 
 ## Features
@@ -16,8 +16,8 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
     - Contains the logotype of the company on the left side.
     - Contains navigation links on the right side:
         * Home - leads to the "Home" page where users can see the last challenge winner photo and exposure of the winners photography.
-        * How? - leads to the "How?" page where users can see past challenge winners and get information on how to participate in a monthly challenge.
-        * Challenge - leads to the "challenge form" page where users can fill out the form and participate in the next challenge and see what the next challenge is.
+        * How? - leads to the "How?" page where users can see past challenge winners and get information about how to participate in a monthly challenge.
+        * Challenge - leads to the "challenge form" page the upcoming challenge is presented and users can fill out the form and participate.
     - The links have an animated hover effect.
     - The navigation is clear and easy to understand for the user.
 
@@ -37,12 +37,10 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
     - Represent: 
 
-        * Exposure of the last month´s challenge winner.
+        * Exposure of the past challenge winner.
         * Emphasizing the exposure of the winning photography.
         * Shows other photographies from the challenge winner.
         * Invites to fill out the challenge form.
-
-
 
 ---
 
@@ -62,11 +60,7 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
     - Highlights the challenge winner-picture.
 
-    - Shows of more art from the winner.
-
     - Attracts users who wants to get their art exposed.
-
-
 
  ---
 
@@ -95,7 +89,7 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
  
       ![Photo Challenge](documentation/pictures/footer.PNG)
 
-    - Footer contains social media links that open in a new tab.
+    - Footer contains social media links that opens in a new tab.
 
 
   ---
@@ -106,15 +100,11 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
     
     - How? has a header identical to the Home page
       
-    - How? page has a hero image and challenge introduction for the visitors that contains an explanation about how the challenge works.
+    - How? page has a challenge introduction for the visitors that explains how the challenge works.
 
-    - Past challenge winners Section has three more photographies from the previous winners.
-
-    - Each card has a picture is the winning picture of monthly challenges.
+    - Past challenge winners Section has slideshow with three more photographies, each card has a winning photo from previous challenges.
 
     - The slideshow automatically spins after a few second but can also be spun manually.
-
-    - Each card has a name of what is showing on the picture.
    
     - It has a footer identical to the home page's footer.
    
@@ -125,11 +115,13 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
    ![Photo Challenge](documentation/laptop/challenge-laptop.png)
 
    - Challenge Page has identical header to Home Page
+ 
+   - The page presents the upcoming challenge.
 
     - Challenge page has a submit form:
 
         - All text input fields are customized.
-        - Labels are animated when the input field is in focus and are not empty.
+        - Labels are animated when the input field is in focus and not empty.
         - All inputs, except phon-number, are set to be required to fill out.
 
     - The page is responsive on all common screen sizes.
@@ -150,15 +142,15 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
 ## Technologies Used
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
-- [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - was used to arrange items simmetrically on the pages.
-- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
+- [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - was used to arrange items symmetrical on the pages.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "How?" and "Challenge" pages responsive.
 - [VSCode](https://code.visualstudio.com/) - was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) - was used for the version control of the website.
 - [GitHub](https://github.com/) - was used to host the code of the website.
-- [GIMP](https://www.gimp.org/) - was used to make and resize images for the README file.
-- [Balsamiq](https://www.balsamiq.com/) - was used to create wireframes for the home, how and challenge page.
+- [Birme](https://www.birme.net/?target_width=600&target_height=800) - was used to resize images for the slideshows.
+- [Balsamiq](https://www.balsamiq.com/) - was used to create wireframes for the Home, How? and Challenge page.
 
 ---
 
@@ -166,11 +158,11 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
 ### Color Scheme
 
-- A background gradient in black and dark purple was used to make a depth in the background to better highlight the photographies. I added a design to the background on the submit-response page, that gives the effect of cameras flashing. This will make the photographers associate it with something they love doing, taking breathtaking phos.
+- A background gradient in black and dark purple was used to make a depth in the background to better highlight the photographies. I added my own design to the background on the submit-response page, that gives the effect of cameras flashing. I created it myself in Canva. This will make the photographers associate it with something they love doing, taking breathtaking photos.
 
 - I used white text color to make the text easily read. It also gives photos displayed on the website more room for colors without the background disturbing.
 
-- Backgroundcolor was used to enhance the next challenge and the last month challenge winner.
+- Text shadow was used to enhance the upcoming and previous challenge.
 
 
 
@@ -195,17 +187,17 @@ The site can be accessed here [link](https://chazzieloves.github.io/photochallen
 
 ## Testing
 
-Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+- The project was tested through: [Validator](https://validator.w3.org/)
 
 ---
 
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+- The site was deployed to GitHub pages. The steps to deploy are as followed: 
   - In the [GitHub repository](https://github.com/Chazzieloves/photochallenge), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
-  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - The page will automatically refresh with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found [here](https://chazzieloves.github.io/photochallenge/)
 
@@ -220,7 +212,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Future improvements
 - improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
-- correct the slideshow of images so they do not overflow.
+- correct the slideshow of images so they do not overflow on bigger screens.
 
 ---
 
@@ -229,7 +221,7 @@ In your IDE Terminal, type the following command to clone my repository:
 + #### Content
 
     - Inspiration for the background gradient effect came from the article "CSS Gradients" published the website [W3 schools etc](https://www.w3schools.com/](https://www.w3schools.com/css/css3_gradients.asp).
-    - 
+
   + #### Media
 
     - All the images for the website were taken from [Unsplash](https://unsplash.com/) or my own design/photo.
